@@ -205,7 +205,8 @@ a:hover{
         margin-bottom: 10px;
     }
 
-    #log-in{
+    #log-in, #new-account{
         margin-top: 0;
+        margin-bottom: 0;
     }
 }
