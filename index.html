@@ -21,20 +21,20 @@
         </section>
         <section id="container">
                 <h1>Login</h1>
-                <div class="input-container">
-                    <i class="fa-solid fa-user"></i>
-                    <input type="text" name="name" placeholder="Username or Email" id="username" autofocus>
-                </div>
-                <div class="input-container">
-                    <i class="fa-solid fa-key"></i>
-                    <input type="text" name="password" placeholder="Password" id="password">
-                </div>
-                <div class="forgot">
-                    <a href="#" id="recuperation">Forgot Password?</a>
-                </div>
-                <button>
-                    Enter
-                </button>
+                <form action="" id="formulario">
+                    <div class="input-container">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="name" placeholder="Username or Email" id="username" autofocus required>
+                    </div>
+                    <div class="input-container">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="text" name="password" placeholder="Password" id="password" minlength="8" required>
+                    </div>
+                    <div class="forgot">
+                        <a href="#" id="recuperation">Forgot Password?</a>
+                    </div>
+                    <button type="submit"> Enter </button>
+                </form>
 
                 <p id="new-account">
                     New Here? <a href="create.html">Sign Up!</a>

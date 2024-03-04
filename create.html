@@ -21,25 +21,21 @@
         </section>
         <section id="container">
                 <h1 id="create-title">Create Account</h1>
-                <div class="input-container">
-                    <i class="fa-solid fa-user"></i>
-                    <input type="text" name="name" placeholder="Username" id="username" autofocus>
-                </div>
-                <div class="input-container">
-                    <i class="fa-solid fa-envelope"></i>
-                    <input type="text" name="mail" placeholder="Email" id="mail" autofocus>
-                </div>
-                <div class="input-container">
-                    <i class="fa-solid fa-key"></i>
-                    <input type="text" name="password" placeholder="Password" id="password">
-                </div>
-                <div class="input-container">
-                    <i class="fa-solid fa-key"></i>
-                    <input type="text" name="password" placeholder="Confirm Password" id="password">
-                </div>
-                <button id="finish">
-                   Finish
-                </button>
+                <form action="" id="formulario">
+                    <div class="input-container">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="name" placeholder="Username" id="username" autofocus required minlength="5" maxlength="10">
+                    </div>
+                    <div class="input-container">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" name="mail" placeholder="Email" id="mail" autofocus required> 
+                    </div>
+                    <div class="input-container">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="text" name="password" placeholder="Password" id="password" required minlength="8" maxlength="16">
+                    </div>
+                    <button type="submit"> Create </button>
+                </form>
 
                 <p id="log-in">
                     Have account? <a href="index.html">Log in!</a>
